@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="first.css" />
+    <style>
+        @font-face {
+            font-family: mySpecialFont;
+            src: url('collen.ttf');
+        }
+
+        h1 {
+            color: #fdfcfb;
+            background-color: #02d9ff;
+            text-align: center;
+            font-style: normal;
+            font-size: 2em;
+            font-variant: normal;
+        }
+
+        h1 {
+            font-family: mySpecialFont;
+        }
+
+        h2 {
+            font-family: mySpecialFont;
+            display: inline-block;
+        }
+
+        h3 {
+            font-family: mySpecialFont;
+            display: inline-block;
+        }
+
+        span {
+            background: green;
+        }
+
+        p {
+            border: 2px solid #470beb;
+            background: pink;
+            line-height: 20px;
+            text-align: center;
+        }
+
+        body {
+            background-color: aqua;
+            background-repeat: repeat-y;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        #a {
+            color: rgb(11, 12, 12);
+            position: static;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Search Area</h1>
+    <p>
+    <form action="https://www.google.com/search">
+        <img src="https://cdn.vox-cdn.com/thumbor/Ous3VQj1sn4tvb3H13rIu8eGoZs=/0x0:2012x1341/1400x788/filters:focal(0x0:2012x1341):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg"
+            alt="" height="50" width="100">
+            <br>
+        <!-- <h2 style="color:rgb(17, 0, 255);">G</h2>
+        <h3 style="color:red;">o</h3>
+        <h3 style="color:yellow;">o</h3>
+        <h3 style="color:blue;">g</h3>
+        <h3 style="color:green;">l</h3>
+        <h3 style="color:red;">e</h3>
+        <br> -->
+        <input type="text" placeholder="Google Search" id="a" name="q">
+        <button type="submit">Search</button>
+        <br>
+
+    </form>
+    </p>
+    <p>
+    <form action="https://www.youtube.com/results">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/2560px-YouTube_Logo_2017.svg.png"
+            alt="" height="30" width="100">
+        <!-- <h2 style="color:rgb(1, 0, 8);">Y</h2>
+        <h3 style="color:rgb(12, 12, 12);">ou</h3>
+        <h2 style="color:rgb(1, 0, 8);">T</h2>
+        <h3 style="color:rgb(12, 12, 12);">ube</h3> -->
+        <br>
+        <input type="text" placeholder="Youtube Search" id="b" name="search_query">
+        <button type="submit">Search</button>
+        <br>
+    </form>
+    </p>
+    <p>
+    <form action="https://www.reddit.com/search/">
+        <img src="https://i.pinimg.com/originals/83/6f/48/836f48f838d62d1581d9d8fff78481f9.png"
+            alt="" height="150" width="150">
+            <br>
+        <input type="text" placeholder="Reddit Search" id="c" name="q">
+        <button type="submit">Search</button>
+        <br>
+    </form>
+    </p>
+
+</body>
+
+</html>
